@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-y: scroll;
+}
+nav {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    position: relative;
+    margin: 15px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#subMenu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+
+#search i {
+    color: white;
+    padding: 16px;
+    position: absolute;
+    right: 0;
+}
+
+#search i:hover {
+    background-color: tomato;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    top: 90vh;
+    left: 40%;
+    color: white;
+}
+
+#intro {
+    margin: 50px 20% 0px 20%;
+    width: 60%;
+    text-align: center;
+}
+
+#intro p {
+    text-align: justify;
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.createGap {
+    margin: 20px 0px;
+}
+
+.sameOne{
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.sameTwo{
+    color: grey;
+    font-style: italic;
+    font-weight: 100;
+}
+#members{
+    display: flex;
+    margin: 50px;
+}
+.weAre img{
+    width: 180px;
+    height: 200px;
+    margin-right: 70px;
+    border-radius: 10px;
+}
+.weAre p{
+    margin-left: 75px;
+}
+#tour{
+    width: 100%;
+    height: 130vh;
+    background: black;
+    text-align: center;
+}
+#tour h1{
+    color: white;
+    margin-top: 80px;
+    position: relative;
+    top: 80px;
+}
+.nxt{
+    position: relative;
+    top: 80px;
+}
+#boxes{
+    margin: 120px 20% 0px 20%;
+}
+#boxes p{
+    background-color: white;
+    padding: 10px 15px;
+    text-align: left;
+    color: grey;
+    font-size: 14px;
+}
+.xtra{
+    margin-left: 15px;
+    color: white;
+    background-color: tomato;
+    padding: 3px 8px;
+}
+#xtra{
+    color: white;
+    position: absolute;
+    right: 23%;
+    background-color: black;
+    padding: 5px 8px;
+    border-radius: 100%;
+    font-size: 12px;
+}
+#tourPlace{
+    margin: 25px 20%;
+    display: flex;
+}
+.places{
+    background-color: white;
+    max-width: 260px;
+    margin-right: 15px;
+    text-align: left;
+}
+.places img{
+    max-width: 260px;
+    padding: 0%;
+}
+.places h4{
+    color: grey;
+    margin: 20px;
+    font-weight: 50;
+}
+.places h3{
+    margin: 20px;
+    font-weight: 100;
+}
+.places p{
+    margin: 20px;
+    font-size: 15px;
+}
+.places button{
+    margin: 0px 0px 20px 20px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+.places button:hover{
+    background-color: grey;
+}
+#contact{
+    margin: 80px 20%;
+    text-align: center;
+}
+#flexBox{
+    display: flex ;
+}
+#our{
+    text-align: left;
+    display: flex;
+    width: 50%;
+}
+#erase li{
+    list-style: none;
+    margin: 10px;
+}
+#erase li i{
+    margin-right: 10px;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+#written li{
+    list-style: none;
+    margin: 10px 10px 10px 0px;
+}
+#userInput input{
+    height: 25px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0px;
+    margin: 0px 10px 10px;
+    border-width: 1px;
+    border: 1px solid grey;
+}
+#long{
+    width: 84%;
+}
+#userInput button{
+    position: absolute;
+    right: 22.2%;
+    padding: 8px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+#userInput button:hover{
+    background-color: grey;
+}
+#map img{
+    width: 100%;
+    margin: 90px 0px 0px 0px;
+}
+footer{
+    background-color: whitesmoke;
+    color: grey;
+    text-align: center;
+    height: 30vh;
+}
+footer ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+    margin: 3px;
+    position: relative;
+    top: 60px;
+}
+footer h5{
+    position: relative;
+    top: 80px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul{
+    display: flex;
+    margin-left: 43%;
+}
+footer ul li a:hover{
+    color: lightgrey;
+}
